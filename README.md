@@ -24,28 +24,27 @@ Before running the app, make sure you have the following installed:
   
 2. Navigate to the project directory:
 
-cd weather-app
+   cd Weather
 
 3. Install dependencies:
 
-npm install
-
+   npm install
 
 4. Set up your OpenWeatherMap API key:
 
-Obtain an API key from OpenWeatherMap.
+   Obtain an API key from OpenWeatherMap.
 
-Replace 'your_openweathermap_api_key' with your actual API key in index.js and site.js files.
+   Replace 'your_openweathermap_api_key' with your actual API key in index.js and site.js files.
 
 5. Run the server:
 
-node index.js
+   node index.js
 
-The server will start at http://localhost:3000.
+   The server will start at http://localhost:3000.
 
 6. Open the app in your browser:
 
-Navigate to http://localhost:3000 in your web browser to access the Weather App.
+   Navigate to http://localhost:3000 in your web browser to access the Weather App.
 
 ##Additional APIs
 
