@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./site.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+
+  <div class="weather-app">
+    <header>
+      <h1>Weather App</h1>
+    </header>
+
+    <main>
+      <form id="weatherForm">
+        <label for="city">Enter city:</label>
+        <input type="text" id="city" name="city" required>
+        <button type="submit">Get Weather</button>
+      </form>
+
+      <div id="weatherInfo"></div>
+      <div id="map"></div>
+
+      <button id="getNews">Get News</button>
+      <button id="getExchangeRate">Get Exchange Rate</button>
+      <div id="newsInfo"></div>
+      <div id="exchangeRateInfo"></div>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Weather App. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="site.js"></script>
+</body>
+</html>
