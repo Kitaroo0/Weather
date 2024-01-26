@@ -53,3 +53,7 @@ To enhance functionality, the app integrates additional APIs for exchange rates 
 Exchange Rate API: https://www.exchangerate-api.com/
 
 News API: https://newsapi.org/
+
+## Notes
+
+I had to remove the "node_modules" directory from the "RegLog" folder, since there are 1000+ files there and it cannot be added to the github.
