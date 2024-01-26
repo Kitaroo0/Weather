@@ -52,16 +52,22 @@ To enhance functionality, the app integrates additional APIs for exchange rates 
 
 Exchange Rate API: https://www.exchangerate-api.com/
 
-### OpenWeather API
+OpenWeather API
+
 - Endpoint: `/weather`
+- 
 - Parameters: `city`
 
-### News API
+News API
+
 - Endpoint: `/news`
+- 
 - Parameters: (if any)
 
-### Exchange Rate API
+Exchange Rate API
+
 - Endpoint: `/exchange-rate`
+- 
 - Parameters: (if any)
 
 News API: https://newsapi.org/
