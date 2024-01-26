@@ -46,7 +46,7 @@ Before running the app, make sure you have the following installed:
 
    Navigate to http://localhost:3000 in your web browser to access the Weather App.
 
-##Additional APIs
+## Additional APIs
 
 To enhance functionality, the app integrates additional APIs for exchange rates and news. These APIs run on the server side.
 
